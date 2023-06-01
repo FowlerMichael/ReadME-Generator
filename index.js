@@ -19,6 +19,12 @@ const questions = [
     
     },
     {
+        type: 'checkbox',
+        name: 'license',
+        message: 'Please select a license for your project.',
+        choices: ['MIT', 'Apache', 'None']
+    },
+    {
         type: 'input',
         name: 'table of contents',
         message: 'Please provide a table of contents if needed.',
@@ -37,12 +43,6 @@ const questions = [
     },
     {
         type: 'checkbox',
-        name: 'license',
-        message: 'Please select a license for your project.',
-        choices: ['MIT', 'Apache', 'None']
-    },
-    {
-        type: 'checkbox',
         name: 'Languages',
         message: 'Please select the languages used in your project.',
         choices: ['HTML', 'CSS', 'JavaScript','Ruby','node.js','python','C++','jQuery','Bootstrap','Express.js','react.js','MongoDB','MySQL']
@@ -55,9 +55,21 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'links',
-        message: 'Please provide link to github profile.',
-        message: 'Please provide link live website.',
+        name: 'contributing',
+        message: 'Please provide instructions on how to contribute to your project.',
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'Please provide instructions on how to test your project.',
+    },
+    {
+        type: 'input',
+        name: 'questions',
+        message: 'Please provide an email link to answer any questions an outside user may have.',
+        validate: (value)=>(value ? true : 'Please enter an email.'),
+        message: 'Please provide an github link to answer any questions an outside user may have.',
+        validate: (value)=>(value ? true : 'Please enter an email.')
     },
     {
         type: 'input',
