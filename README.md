@@ -50,7 +50,8 @@ This project is licensed under the Apache license. See the [LICENSE](LICENSE) fi
   <hr>
 
   ## Questions
-  link
+  https://github.com/FowlerMichael/ReadME-Generator/edit/main/README.md
+  NotARealEmail@gmail.com
   <hr>
 
 
