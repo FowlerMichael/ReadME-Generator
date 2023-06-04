@@ -26,12 +26,6 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'table of contents',
-        message: 'Please provide a table of contents if needed.',
-
-    },
-    {
-        type: 'input',
         name: 'preview',
         message: 'Please provide a photo or video of your project.',
     },

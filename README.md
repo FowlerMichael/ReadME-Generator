@@ -1,46 +1,63 @@
 
-  # readme
+  # README File Generator
   <hr>
 
   ## Description
-  file maker
+  In this project we built a readme file generator that would generate the file from being prompted in the terminal using node.js
   <hr>
 
   ## Table of Contents
-  undefined
+  * [Installation](#installation)
+  * [preview](#preview)
+  * [License](#license)
+  * [Frameworks and Libraries](#frameworks-and-libraries)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  * [Credits](#credits)
   <hr>
 
   ## Preview
-   none
+   
    <hr>
 
   ## Installation
-   copy
+   follow my github profile link to my gerator repo and clone the code make sure to have node.js installed
    <hr>
 
    ## License
 
-This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for details.
-   [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+This project is licensed under the Apache license. See the [LICENSE](LICENSE) file for details.
+   [![License](https://img.shields.io/badge/License-Apache-blue.svg)](LICENSE)
    
    <hr>
 
   ## Frameworks and Libraries
-   JavaScript,node.js
+   node.js
    <hr>
 
   ## Usage
-  run in terminal
+  run the code in the terminal using node index.js and answer prompted questions
   <hr>
 
-  ## Links
-  none
+  ## Contributing
+  pull code from github make a new branch and submit any edits or additions
   <hr>
+
+  ## Tests
+  
+  <hr>
+
+  ## Questions
+  link
+  <hr>
+
 
   ## Credits
-   msu
+   MSU
    <hr>
 
   ## Author
-   Michael
+   Michael Fowler
 
