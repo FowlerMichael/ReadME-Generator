@@ -28,8 +28,8 @@
 
    ## License
 
-This project is licensed under the Apache license. See the [LICENSE](LICENSE) file for details.
-   [![License](https://img.shields.io/badge/License-Apache-blue.svg)](LICENSE)
+This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for details.
+   [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
    
    <hr>
 
