@@ -18,9 +18,6 @@ function renderLicenseLink (license) {
     return `https://opensource.org/licenses/MIT`;
     
   }
-  else if (license === 'GPLv2') {
-    return `https://www.gnu.org/licenses/gpl-3.0`;
-  }
   else if (license === 'Apache 2.0') {
     return `https://opensource.org/licenses/Apache-2.0`;
   }
@@ -73,9 +70,9 @@ function generateMarkdown(data) {
    ${data.installation}
    <hr>
 
+   ${renderLicenseLink(data.license)}
    ${getLicenseSection(data.license)}
    ${renderLicenseBadge(data.license)}
-   ${renderLicenseLink(data.license)}
    <hr>
 
   ## Frameworks and Libraries
@@ -95,7 +92,8 @@ function generateMarkdown(data) {
   <hr>
 
   ## Questions
-  ${data.questions}
+  ${data.question1}
+  ${data.question2}
   <hr>
 
 

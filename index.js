@@ -59,11 +59,15 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'questions',
-        message: 'Please provide an email link to answer any questions an outside user may have.',
-        validate: (value)=>(value ? true : 'Please enter an email.'),
+        name: 'question1',
         message: 'Please provide an github link to answer any questions an outside user may have.',
-        validate: (value)=>(value ? true : 'Please enter an email.')
+        validate: (value)=>(value ? true : 'Please enter github link.')
+    },
+    {
+    type: 'input',
+    name: 'question2',
+    message: 'Please provide an email link to answer any questions an outside user may have.',
+    validate: (value)=>(value ? true : 'Please enter an email.'),
     },
     {
         type: 'input',
