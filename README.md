@@ -23,7 +23,7 @@
    <hr>
 
   ## Installation
-   follow my github profile link to my gerator repo and clone the code make sure to have node.js installed
+   follow my github profile link to my ReadME generator repo and clone the code make sure to have node.js installed
    <hr>
 
    ## License
